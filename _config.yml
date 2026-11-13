@@ -1,5 +1,6 @@
-title:"一个努力学习代码的美女发疯日常之人究竟能多神经"
-description:"日常向苍天呐喊发问为什么代码程序这么难"
-theme:minima
+title: "一个努力学习代码的美女发疯日常之人究竟能多神经"
+description: "日常向苍天呐喊发问为什么代码程序这么难"
+theme: minima
 plugins:
--  jekyll-feed
+  - jekyll-feed
+ 
