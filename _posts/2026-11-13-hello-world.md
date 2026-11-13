@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "我的第一篇博客"
-categories: [蔡叽碎碎念]
+categories: ["蔡叽碎碎念"]
 date:2026-11-13 23:48:13 +0800
 ---
 
