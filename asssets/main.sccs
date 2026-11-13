@@ -1,14 +1,21 @@
+
 ---
+---
+
 @import "minima";
-/*====蔡叽的互联网小屋====*/
-body{
+
+/* ==== 蔡叽的互联网小屋 ==== */
+
+body {
   background: linear-gradient(
     135deg,
-    #fff05f,
-    #d7f7ff
+    #ffb6d9,
+    #e6c7ff,
+    #c9f4ff
   );
   font-family: Arial, sans-serif;
 }
+
 .site-title {
   color: #7c258e !important;
   font-weight: 900;
