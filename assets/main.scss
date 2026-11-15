@@ -182,3 +182,163 @@ body::before {
     padding: 38px 14px;
   }
 }
+
+/* ==== 蔡叽的电子剪贴簿 ==== */
+
+.scrapbook-header {
+  text-align: center;
+  padding: 30px 15px;
+  margin-bottom: 35px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #ffd1e8, #ead5ff, #d4f5ff);
+  border: 2px solid white;
+  box-shadow: 0 8px 25px rgba(190, 90, 170, 0.18);
+}
+
+.scrapbook-sticker {
+  display: inline-block;
+  padding: 8px 16px;
+  background: white;
+  color: #df4b9f;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.scrapbook-header h1 {
+  color: #e84393;
+  font-size: clamp(30px, 6vw, 48px);
+  font-weight: 900;
+  margin: 20px 0 8px;
+}
+
+.scrapbook-header p {
+  color: #9850a8;
+}
+
+.scrapbook-stars {
+  color: #e843aa;
+  font-size: 24px;
+  letter-spacing: 8px;
+  margin-top: 20px;
+}
+
+.scrapbook-section h2,
+.scrapbook-note h2 {
+  color: #d83e99;
+  font-weight: 900;
+}
+
+.photo-wall {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  padding: 15px 5px 30px;
+}
+
+.polaroid {
+  padding: 12px 12px 18px;
+  background: #fffdfd;
+  border: 1px solid #ffe3f1;
+  border-radius: 5px;
+  box-shadow: 0 7px 18px rgba(160, 75, 140, 0.18);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.polaroid:hover {
+  transform: translateY(-7px) rotate(0deg) scale(1.03);
+  box-shadow: 0 14px 25px rgba(210, 80, 160, 0.25);
+}
+
+.tilt-left {
+  transform: rotate(-3deg);
+}
+
+.tilt-right {
+  transform: rotate(3deg);
+}
+
+.photo-placeholder {
+  aspect-ratio: 4 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #ffe0ef, #eadcff, #d9f5ff);
+  color: #c04a9d;
+  border: 1px dashed #d98bc4;
+}
+
+.photo-placeholder span {
+  font-size: 42px;
+  font-weight: 300;
+}
+
+.photo-placeholder small {
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.photo-caption {
+  padding: 14px 5px 0;
+  text-align: center;
+  color: #85518f;
+}
+
+.photo-caption strong {
+  color: #d83e99;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.photo-caption p {
+  font-size: 13px;
+  margin: 8px 0;
+}
+
+.photo-caption small {
+  font-size: 10px;
+  color: #b17da9;
+}
+
+.scrapbook-note {
+  margin: 25px 0;
+  padding: 22px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 0 6px 18px rgba(180, 80, 170, 0.1);
+}
+
+.scrapbook-note > span {
+  font-size: 30px;
+}
+
+.scrapbook-note p {
+  color: #80518f;
+}
+
+.scrapbook-footer {
+  padding: 25px 10px;
+  text-align: center;
+  color: #d83e99;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 600px) {
+  .photo-wall {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .polaroid {
+    max-width: 360px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
