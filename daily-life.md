@@ -21,24 +21,24 @@ title: "MY DAILY LIFE"
     <div class="polaroid">
       <div class="photo-placeholder">
         <span>＋</span>
-        <small>YOUR PHOTO HERE</small>
+        <img src="/assets/photos/微信图片_20250927220411_537_66.jpg">
       </div>
       <div class="photo-caption">
         <strong>MEMORY 001</strong>
         <p>以后在这里写下照片故事 ♡</p>
-        <small>DATE: COMING SOON</small>
+        <img src="/assets/photos/微信图片_20261112234644_110_22.jpg">
       </div>
     </div>
 
     <div class="polaroid tilt-left">
       <div class="photo-placeholder">
         <span>＋</span>
-        <small>YOUR PHOTO HERE</small>
+       <img src="/assets/photos/微信图片_20261112234644_111_22.jpg">
       </div>
       <div class="photo-caption">
         <strong>MEMORY 002</strong>
         <p>今天也有值得收藏的瞬间！</p>
-        <small>DATE: COMING SOON</small>
+        <img src="/assets/photos/.联想截图_20261017140826.png">
       </div>
     </div>
 
