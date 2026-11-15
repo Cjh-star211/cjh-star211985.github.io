@@ -8,11 +8,11 @@ title: "首页"
 <div class="hero">
   <div class="hero-tag">✦ WELCOME TO MY WORLD ✦</div>
   <h1 class="hero-title">蔡叽's World ♡</h1>
-  <p class="hero-subtitle">WELCOME TO MY  LITTLE UNIVERSE!</p>
+  <p class="hero-subtitle">WELCOME TO MY UNIVERSE!</p>
   <p class="hero-description">一个努力学习代码的美女发疯日常</p>
   <div class="hero-clock">
     <span id="clock">00:00:00</span>
-    <span class="clock-label">MY LITTLE CORNER OF THE INTERNET</span>
+    <span class="clock-label">MY  INTERNET</span>
   </div>
   <p class="hero-decoration">♡ ✧ ⋆｡˚ ☁︎ ˚｡⋆ ✧ ♡</p>
 </div>
