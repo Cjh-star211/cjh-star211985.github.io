@@ -46,3 +46,139 @@ body::before {
   text-shadow: 0 0 10px #ff8bd1;
   padding: 12px;
 }
+
+/* ==== 蔡叽首页：赛博主视觉 ==== */
+
+.page-heading {
+  display: none;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin: 10px 0 45px;
+  padding: 55px 20px 40px;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  border-radius: 30px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 190, 225, 0.9),
+    rgba(230, 199, 255, 0.9),
+    rgba(201, 244, 255, 0.9)
+  );
+  box-shadow: 0 12px 35px rgba(210, 80, 170, 0.2);
+}
+
+.hero-tag {
+  color: #a43c9c;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.hero-title {
+  margin: 22px 0;
+  color: #ed299c;
+  font-size: clamp(36px, 7vw, 66px);
+  font-weight: 900;
+  text-shadow:
+    3px 3px 0 #ffffff,
+    6px 6px 0 rgba(190, 100, 210, 0.25);
+}
+
+.hero-subtitle {
+  color: #9b35ae;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: clamp(14px, 2.5vw, 20px);
+}
+
+.hero-description {
+  color: #783c91;
+  font-size: 16px;
+}
+
+.hero-clock {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 20px;
+  padding: 16px 30px;
+  border: 1px solid white;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 5px 20px rgba(180, 80, 170, 0.15);
+}
+
+#clock {
+  color: #e52d9b;
+  font-size: 32px;
+  font-weight: 900;
+  font-variant-numeric: tabular-nums;
+}
+
+.clock-label {
+  color: #9850a8;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.hero-decoration {
+  color: #e843aa;
+  font-size: 23px;
+  letter-spacing: 5px;
+  margin-top: 22px;
+}
+
+/* ==== 六大区域入口卡片 ==== */
+
+.universe-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 25px 0 40px;
+}
+
+.universe-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 25px 12px;
+  text-align: center;
+  text-decoration: none !important;
+  border: 2px solid white;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.68);
+  box-shadow: 0 7px 20px rgba(180, 80, 170, 0.12);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.universe-card span {
+  font-size: 32px;
+}
+
+.universe-card strong {
+  color: #bd3196;
+  font-size: 14px;
+}
+
+.universe-card small {
+  color: #80518f;
+}
+
+.universe-card:hover {
+  transform: translateY(-6px) rotate(-1deg);
+  box-shadow: 0 12px 25px rgba(220, 70, 170, 0.25);
+}
+
+@media (max-width: 600px) {
+  .universe-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 38px 14px;
+  }
+}
