@@ -52,22 +52,22 @@ title: "首页"
     <strong>MY DAILY LIFE</strong>
     <small>生活碎片与电子剪贴簿</small>
   </a>
-  <a class="universe-card" href="/cjh-star211985.github.io/code-chaos/">
+  <a class="universe-card" href="/cjh-star211985.github.io/code-chaos.html">
     <span>💻</span>
     <strong>CODE & CHAOS</strong>
     <small>代码战争实录</small>
   </a>
-  <a class="universe-card" href="/cjh-star211985.github.io/music-player/">
+  <a class="universe-card" href="/cjh-star211985.github.io/music-player.html">
     <span>🎧</span>
     <strong>MY MUSIC PLAYER</strong>
     <small>我的音乐收藏</small>
   </a>
-  <a class="universe-card" href="/cjh-star211985.github.io/secret-internet/">
+  <a class="universe-card" href="/cjh-star211985.github.io/secret-internet.html">
     <span>👾</span>
     <strong>SECRET INTERNET</strong>
     <small>禁止无聊的秘密基地</small>
   </a>
-  <a class="universe-card" href="/cjh-star211985.github.io/message-to-me/">
+  <a class="universe-card" href="/cjh-star211985.github.io/message-to-me.html">
     <span>💌</span>
     <strong>MESSAGE TO ME</strong>
     <small>写给未来自己的信</small>
