@@ -412,3 +412,51 @@ body::before {
   z-index: 10;
   box-shadow: 0 12px 30px rgba(190, 70, 180, 0.25);
 }
+
+
+
+/* ===== CUTE STICKER DECORATIONS ===== */
+
+/* 照片墙装饰区域 */
+.photo-wall {
+  position: relative;
+}
+
+/* 每张照片的装饰贴纸 */
+.photo-wall .polaroid::before {
+  position: absolute;
+  top: -19px;
+  right: 12px;
+  font-size: 27px;
+  z-index: 20;
+  transform: rotate(12deg);
+}
+
+.photo-wall .polaroid:nth-child(1)::before {
+  content: "🎀";
+}
+
+.photo-wall .polaroid:nth-child(2)::before {
+  content: "💗";
+  transform: rotate(-15deg);
+}
+
+.photo-wall .polaroid:nth-child(3)::before {
+  content: "✨";
+}
+
+.photo-wall .polaroid:nth-child(4)::before {
+  content: "🦋";
+  transform: rotate(12deg);
+}
+
+/* 照片墙底部的小装饰 */
+.photo-wall::after {
+  content: "♡  ✦  ⋆｡°✩  💗  ✧  🎀  ♡";
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 8px;
+  padding: 25px 5px;
+  color: #ec63bd;
+}
