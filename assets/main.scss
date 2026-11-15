@@ -33,55 +33,7 @@ a {
   color: #8b35c9;
 }
 
-/* ==== 蔡叽互联网装饰 ==== */
 
-/* 页面标题 */
-.site-title {
-  color: #ff36a6 !important;
-  font-weight: 900;
-  text-shadow:
-    2px 2px 0 #b8a0ff,
-    0 0 12px #ff8bd1;
-}
-
-/* 页面里的标题 */
-h1, h2, h3 {
-  color: #ec38a8;
-  text-shadow: 1px 1px 0 #d8c5ff;
-}
-
-/* 超链接 */
-a {
-  color: #9b35d0;
-  text-decoration: none;
-  transition: all 0.25s ease;
-}
-
-/* 鼠标放到链接上 */
-a:hover {
-  color: #ff299b;
-  text-shadow: 0 0 8px #ff8bd1;
-}
-
-/* ==== 糖果色导航栏 ==== */
-
-.site-nav .page-link {
-  color: #a52c91;
-  background: rgba(255, 255, 255, 0.65);
-  border: 1px solid rgba(255, 105, 180, 0.4);
-  border-radius: 30px;
-  padding: 7px 14px;
-  margin: 4px;
-  transition: all 0.25s ease;
-}
-
-/* 鼠标悬停时 */
-.site-nav .page-link:hover {
-  color: white;
-  background: #ff72bd;
-  box-shadow: 0 0 12px rgba(255, 80, 180, 0.6);
-  transform: translateY(-3px);
-}
 /* ==== Y2K 闪光星星 ==== */
 
 body::before {
