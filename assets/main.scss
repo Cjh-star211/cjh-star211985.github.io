@@ -345,9 +345,13 @@ body::before {
 
 /* ===== PHOTO WALL IMAGE FIX ===== */
 
+
+
+
 .photo-placeholder {
   width: 100%;
   aspect-ratio: 4 / 3;
+  min-height: 220px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -360,12 +364,13 @@ body::before {
   display: block;
   width: 100%;
   height: 100%;
-  max-width: none;
-  object-fit: cover;
+  max-width: 100%;
+  object-fit: contain !important;
   object-position: center;
   margin: 0;
   padding: 0;
 }
+
 
 .photo-placeholder span,
 .photo-placeholder small {
