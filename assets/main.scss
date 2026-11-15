@@ -32,3 +32,33 @@ h1, h2, h3 {
 a {
   color: #8b35c9;
 }
+
+/* ==== 蔡叽互联网装饰 ==== */
+
+/* 页面标题 */
+.site-title {
+  color: #ff36a6 !important;
+  font-weight: 900;
+  text-shadow:
+    2px 2px 0 #b8a0ff,
+    0 0 12px #ff8bd1;
+}
+
+/* 页面里的标题 */
+h1, h2, h3 {
+  color: #ec38a8;
+  text-shadow: 1px 1px 0 #d8c5ff;
+}
+
+/* 超链接 */
+a {
+  color: #9b35d0;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+/* 鼠标放到链接上 */
+a:hover {
+  color: #ff299b;
+  text-shadow: 0 0 8px #ff8bd1;
+}
