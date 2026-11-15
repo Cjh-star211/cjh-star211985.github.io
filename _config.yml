@@ -4,3 +4,4 @@ theme: minima
 plugins:
   - jekyll-feed
  
+baseurl: "/cjh-star211985.github.io"
