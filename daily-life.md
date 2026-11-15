@@ -49,7 +49,7 @@ title: "MY DAILY LIFE"
 
     <div class="polaroid">
       <div class="photo-placeholder">
-        <img src="{{ '/assets/联想截图_20261017140826.png' | relative_url }}" alt="Memory 004">
+        <img src="{{ '/assets/photos/p04.png' | relative_url }}" alt="Memory 004">
       </div>
       <div class="photo-caption">
         <strong>MEMORY 004</strong>
