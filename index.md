@@ -47,7 +47,7 @@ title: "首页"
 ## ✧ EXPLORE MY UNIVERSE
 
 <div class="universe-grid">
-  <a class="universe-card" href="/cjh-star211985.github.io/daily-life/">
+  <a class="universe-card" href="/cjh-star211985.github.io/daily-life.html">
     <span>📸</span>
     <strong>MY DAILY LIFE</strong>
     <small>生活碎片与电子剪贴簿</small>
