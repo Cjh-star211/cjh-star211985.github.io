@@ -39,7 +39,7 @@ title: "MY DAILY LIFE"
 
     <div class="polaroid tilt-right">
       <div class="photo-placeholder">
-        <img src="{{ '/assets/photos/微信图片_20261112234644_111_22.jpg' | relative_url }}" alt="Memory 003">
+        <img src="{{ '/assets/photos/微信图片_20261112234937_111_22.jpg' | relative_url }}" alt="Memory 003">
       </div>
       <div class="photo-caption">
         <strong>MEMORY 003</strong>
@@ -49,7 +49,7 @@ title: "MY DAILY LIFE"
 
     <div class="polaroid">
       <div class="photo-placeholder">
-        <img src="{{ '/assets/photos/.联想截图_20261017140826.png' | relative_url }}" alt="Memory 004">
+        <img src="{{ '/assets/photos/联想截图_20261017140826.png' | relative_url }}" alt="Memory 004">
       </div>
       <div class="photo-caption">
         <strong>MEMORY 004</strong>
